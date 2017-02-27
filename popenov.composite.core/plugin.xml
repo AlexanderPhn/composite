@@ -1,0 +1,12 @@
+<plugin>
+   <extension
+         point="org.eclipse.debug.core.launchConfigurationTypes">
+      <launchConfigurationType
+            delegate="popenov.composite.core.CompositeLaunchConfiguration"
+            id="popenov.composite"
+            name="Composite"
+            modes="run, debug">
+      </launchConfigurationType>
+   </extension>
+    
+</plugin>

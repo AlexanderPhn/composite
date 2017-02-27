@@ -1,0 +1,19 @@
+<plugin>
+   
+   <extension
+         point="org.eclipse.debug.ui.launchConfigurationTypeImages">
+      <launchConfigurationTypeImage
+            configTypeID="popenov.composite"
+            icon="icons/composite.gif"
+            id="popenov.composite.ui.image">
+      </launchConfigurationTypeImage>
+   </extension>
+   <extension
+         point="org.eclipse.debug.ui.launchConfigurationTabGroups">
+      <launchConfigurationTabGroup
+            class="popenov.composite.ui.CompositeLaunchConfigurationTabGroup"
+            id="popenov.composite.ui.LaunchTabGroup"
+            type="popenov.composite">
+      </launchConfigurationTabGroup>
+   </extension>
+</plugin>

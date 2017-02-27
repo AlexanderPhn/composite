@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CompositeCore
+Bundle-SymbolicName: popenov.composite.core;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: popenov.composite.core.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.debug.core;bundle-version="3.10.100",
+ org.eclipse.jface
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Export-Package: popenov.composite.core
+Import-Package: org.eclipse.debug.internal.ui,
+ org.eclipse.debug.ui
